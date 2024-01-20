@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{Introduction to Complex Numbers}
+\author{mahdiar mazraei}
+\date{December 29, 2023}
+
+\begin{document}
+
+\maketitle
+
+\section*{Overview}
+
+In this tutorial, we will explore the fundamentals of complex numbers. We will cover basic definitions, operations, and applications of complex numbers.\footnote{For
+more information, refer to the reference books.}
+
+\section{Definition}
+
+A complex number is an expression of the form $a + bi$, where $a$ and $b$ are real numbers, and $i$ is the imaginary unit with the property $i^2 = -1$.
+
+\section{Basic Operations}
+
+The basic operations on complex numbers are summarized in Table 1.
+
+\begin{table}[h]
+\centering
+\caption{Basic Operations on Complex Numbers}
+\begin{tabular}{|c|c|}
+\hline
+Operation & Expression Result \\ \hline
+Addition & $(a + bi) + (c + di) = (a + c) + (b + d)i$ \\
+Subtraction & $(a + bi) - (c + di) = (a - c) + (b - d)i$ \\
+Multiplication & $(a + bi) \cdot (c + di) = (ac - bd) + (ad + bc)i$ \\
+Division & $\frac{a + bi}{c + di} = \frac{(a + bi)(c - di)}{c^2 + d^2}$ \\
+\hline
+\end{tabular}
+\end{table}
+\subsection{Addition and Subtraction}
+To add or subtract complex numbers, simply combine the real parts and the
+imaginary parts separately. For example,
+
+\[
+(a + bi) + (c + di) = (a + c) + (b + d)i.
+\]
+
+\enlargethispage{\baselineskip} % Adjust as needed
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{polar.png}
+    \caption{Polar Form of Complex Numbers [1].}
+    \label{fig:enter-label}
+\end{figure}
+
+\subsection{Multiplication}
+To multiply complex numbers, use the distributive property and remember that $i^2 = -1$. For example,
+\begin{align*}
+    (a + bi) \cdot (c + di) &= (ac - bd) + (ad + bc)i.
+\end{align*}
+
+\subsection{Division}
+To divide complex numbers, multiply the numerator and denominator by the conjugate of the denominator. The conjugate of $c + di$ is $c - di$. For example,
+\begin{align*}
+    \frac{a + bi}{c + di} &= \frac{(a + bi)(c - di)}{c^2 + d^2}.
+\end{align*}
+
+\section{Polar Form}
+As you see in Figure 1, complex numbers can also be represented in polar form as $r(\cos \theta + i \sin \theta)$, where $r$ is the magnitude and $\theta$ is the argument.
+
+\section{Applications}
+Complex numbers find applications in various fields, including electrical engi-
+neering, physics, and signal processing. For instance, they are crucial in repre-
+senting alternating currents, analyzing vibrations, and solving differential equa-
+tions.
+\newpage
+	
+\section*{Conclusion}
+This tutorial provides a brief introduction to complex numbers, covering their definition, basic operations, polar form, and applications. Further exploration of this topic will unveil their significance in more advanced mathematical and scientific contexts.
+
+\begin{thebibliography}{9}
+    \bibitem{houseofmath}
+    What Is the Norm and the Argument of a Complex Number?, House of Math, URL: \url{https://www.houseofmath.com}, Accessed on: December 29, 2023.
+\end{thebibliography}
+
+\end{document}

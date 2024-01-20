@@ -1,0 +1,13 @@
+باید یه صفحه اج تی ام ال جدید پیدا کنی
+اینکه چطور بهش بفهمونی احتمالا با نیم اوکی میشه نیم هم از لابری پیدا کنی
+https://github.com/HamzahSikandar/Django_Login_System/blob/main/registration/app1/views.py
+https://stackoverflow.com/questions/10877580/should-i-use-the-text-from-request-post-or-form-cleaned-data
+https://stackoverflow.com/questions/53594745/what-is-the-use-of-cleaned-data-in-django#:~:text=cleaned_data%20returns%20a%20dictionary%20of,format%20(i.e.%20not%20objects).
+https://reintech.io/blog/writing-a-custom-signup-form-in-django
+https://www.nintyzeros.com/2020/06/login-register-user%20page-in%20django.html
+https://docs.djangoproject.com/en/1.8/_modules/django/contrib/auth/forms/
+model.modelform	
+https://docs.djangoproject.com/en/5.0/topics/forms/modelforms/
+https://docs.djangoproject.com/en/5.0/ref/contrib/auth/
+https://www.codingnepalweb.com/responsive-login-form-using-only-html-css/
+https://getbootstrap.com/docs/5.3/components/badge/

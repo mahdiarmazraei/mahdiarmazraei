@@ -1,0 +1,15 @@
+                sa1=x[10]+x[11];
+                sb1=x[13]+x[14];
+                a1=stoi(sa1);
+                b1=stoi(sb1);
+            }
+            if(j==1){
+                sa2=x[9]+x[10];
+                sb2=x[12]+x[13];
+                a2=stoi(sa2);
+                b2=stoi(sb2);
+            }
+            if(j==2){
+                sa3=x[9]+x[10];
+                sb3=x[12]+x[13];
+                a3=stoi(sa3);
